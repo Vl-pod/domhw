@@ -9,4 +9,7 @@ module.exports = merge(common, {
       new CssMinimizerPlugin(),
     ],
   },
+	stats: {
+    children: true,
+  },
 });
